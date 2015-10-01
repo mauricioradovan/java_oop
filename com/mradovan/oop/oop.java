@@ -8,11 +8,6 @@ public class oop{
         switch (input){
             case "1":                
                 System.out.println("Option 1 selected.");
-                MammalClass mammal = new MammalClass();
-                mammal.getProperties();
-                Reptile reptile = new Reptile();
-                reptile.getProperties();                
-                // arbitrary comment
             break;
             default:
                 System.out.println("Undefined option selected. terminating...");
