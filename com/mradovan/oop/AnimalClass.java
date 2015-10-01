@@ -1,10 +1,14 @@
-package external;
+package com.mradovan.oop;
 
-public class Animal{
-    Animal(){
+public class AnimalClass implements Animal{
+    AnimalClass(){
         System.out.println("Animal constructor triggered.");
     }
-    public void getProperties(){
+    /* (non-Javadoc)
+	 * @see com.mradovan.oop.Animal#getProperties()
+	 */
+    @Override
+	public void getProperties(){
         System.out.println("Has eyes");
     }
 }

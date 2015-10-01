@@ -1,7 +1,7 @@
-package external;
+package com.mradovan.oop;
 
-public class CrocoDuck extends Reptile, Bird {
-    public CrocoDuck(){
+public class CrocoDuckClass {
+    public CrocoDuckClass(){
         System.out.println("CrocoDuck constructor triggered.");
     }
 }

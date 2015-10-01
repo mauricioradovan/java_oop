@@ -1,7 +1,7 @@
-package external;
+package com.mradovan.oop;
 
-public class Mammal extends Animal{
-    public Mammal(){
+public class MammalClass extends AnimalClass{
+    public MammalClass(){
         System.out.println("Mammal costructor triggered.");
     }
     public void getProperties(){
