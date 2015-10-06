@@ -2,11 +2,12 @@ package com.mradovan.oop;
 
 public class BirdClass extends AnimalClass implements Bird{
     public BirdClass(){
-        System.out.println("Bird costructor triggered.");
+    	super();
+        System.out.println("Bird: can (generally) fly and lays eggs.");
     }
     @Override
 	public void getProperties(){
         super.getProperties();
-        System.out.println("Lays eggs");
+        System.out.println("Bird: can (generally) fly and lays eggs.");
     }
 }

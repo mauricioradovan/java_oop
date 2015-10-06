@@ -2,7 +2,8 @@ package com.mradovan.oop;
 
 public class ReptileClass extends AnimalClass implements Reptile{
     public ReptileClass(){
-        System.out.println("Reptile constructor triggered.");
+    	super();
+        System.out.println("Reptile: has cold blood.");
     }
     @Override
 	public void getProperties(){

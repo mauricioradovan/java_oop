@@ -2,7 +2,8 @@ package com.mradovan.oop;
 
 public class MammalClass extends AnimalClass implements Mammal{
     public MammalClass(){
-        System.out.println("Mammal costructor triggered.");
+    	super();
+        System.out.println("Mammal: gives birth to live children.");
     }
     @Override
 	public void getProperties(){
